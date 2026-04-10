@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document*/
+
+@font-face {
+    font-family: truculenta;
+    src: url(Truculenta-VariableFont_opsz\,wdth\,wght.ttf) format(truetype);
+    font-wight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: "Raleway", sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(250, 247, 238);
+}
+
+header{
+    height: 110px;
+}
+
+.imagencv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    justify-content: left;
+align-items: left;
+   gap: 20px;
+}
+
+
+
+
+
+
+h1 {
+    font-family: 'truculenta', monospace;
+    font-size: 3.2rem;
+    background-color: rgb(250, 235, 215);
+    text-align: center;
+    border-top-width: 5px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-color: rgb(104, 81, 0);
+    border-style: solid;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'truculenta', monospace;
+    background-color: rgb(250, 235, 215);
+    ;
+    text-align: center;
+}
+
+h5 {
+    font-size: 1.3rem;
+    font-family: 'truculenta', monospace;
+    background-color: rgb(247, 224, 195);
+    text-align: center;
+    border-bottom-width: 5px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-color: rgb(104, 81, 0);
+    border-style: solid;
+    
+}
+
+
+
+h3 {
+    text-decoration: underline;
+    padding: 5px 20px;
+}
+
+
+a {
+    text-decoration: overline;
+}
+
+p {
+    text-wrap-style: balance;
+    padding: 5px 20px;
+}
+
+ul {
+    text-wrap-style: balance;
+}
+
+h4{
+    padding: 5px 20px;
+}
+
+li{
+    padding: 5px 20px;
+}
+
+footer {
+    background-color: rgb(250, 235, 215);
+    text-align: center;
+    color: rgb(122, 121, 121);
+    border-radius: 10px;
+    max-height: 50vh;
+    padding: 15px;
+}
